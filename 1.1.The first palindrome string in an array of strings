@@ -13,6 +13,5 @@ for i in range(0,n):
 for i in s:
     o=palindrome(i)
     if (o==True):
-        p.append(i)
+        print(i)
         break
-print(p)
